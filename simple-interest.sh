@@ -13,3 +13,5 @@ time=$3
 
 simple_interest=$(echo "$principal * $rate * $time / 100" | bc -l)
 echo "Simple Interest: $simple_interest"
+
+#
